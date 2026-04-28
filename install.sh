@@ -200,7 +200,8 @@ done
 # Perform pre-installation checks
 info "Starting pre-installation checks..."
 githubtest
-check_internet
+echo "Skip checking 8.8.8.8"
+echo "check_internet skipped"
 check_dns
 check_package_download
 success "All pre-installation checks passed."
