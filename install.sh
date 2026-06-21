@@ -81,7 +81,7 @@ prompt_yes_no() {
 
 # Function to check GitHub connectivity by downloading lib.sh
 githubtest() {
-    local lib_url="https://github.com/iranopenwrt/auto/releases/latest/download/lib.sh"
+    local lib_url="https://github.com/mohtashammojtaba/auto/blob/main/lib.sh"
     local lib_file="$(pwd)/lib.sh"
 
     info "Checking GitHub connectivity by downloading lib.sh from $lib_url..."
