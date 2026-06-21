@@ -95,7 +95,7 @@ check_openwrt_version() {
         info "uci commit network"
         info "Download the appropriate factory image and follow the installation instructions for your device."
         error "Please upgrade before running this script."
-    elif [ "$major_version" -eq 24 ] && [ "$minor_version" != "10.7" ]; then
+    elif [ "$major_version" -eq 24 ] && [ "$minor_version" != "10.3" ]; then
         warning "You are using an outdated 24.10.x version ($distrib_release)."
         info "Please update to the latest 24.10.7 for your device from the link below:"
         info "https://firmware-selector.openwrt.org/?version=24.10.7&target=$target&id=$device_id"
